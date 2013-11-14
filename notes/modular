@@ -1,0 +1,44 @@
+# Use this 99% of the time!
+
+--- module
+
+module.exports = function(config) {
+  return new Foo();
+};
+
+var Foo = function() {
+  // constructor
+};
+
+Foo.prototype.bar = function() {
+ // stuff
+};
+
+Foo.prototype.bam = function() {
+  // stuff
+};
+
+function boop() {
+  // Essentially a private function
+};
+
+---
+
+var foo = require('foo')({ path: '.'})
+foo.bar();
+foo.bam();
+
+
+
+
+
+# Here is another way:
+exports.import = function() { }
+
+exports.export = function() { }
+
+---
+
+var foo = require('foo');
+foo.import();
+foo.export();

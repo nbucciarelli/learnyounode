@@ -1,0 +1,7 @@
+mkdir sup
+cd sup
+npm init
+npm install express --save
+  - will add file into package.json
+create index.js
+  
