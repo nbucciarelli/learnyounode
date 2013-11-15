@@ -1,0 +1,1 @@
+document.getElementById("bar").addEventListener("click",function(){var a=prompt("What is your name?");alert("Hello "+a)}),document.getElementById("foo").addEventListener("click",function(){alert("Hello Foo")});

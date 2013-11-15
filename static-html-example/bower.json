@@ -1,0 +1,17 @@
+{
+  "name": "static-html-example",
+  "version": "0.0.0",
+  "homepage": "https://github.com/twilson63/static-html-example",
+  "authors": [
+    "Nick Bucciarelli <nick.bucciarelli@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {}
+}

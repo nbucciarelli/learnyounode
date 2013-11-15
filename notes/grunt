@@ -1,0 +1,7 @@
+npm install grunt-cli -g
+  - gives you the grunt command in your command line
+- can plug and play tasks
+
+npm install grunt --save-dev
+  - will put the dependency inside the package.json
+  
